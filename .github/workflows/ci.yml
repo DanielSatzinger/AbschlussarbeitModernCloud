@@ -2,7 +2,8 @@ name: Python Tests CI
 
 on:
   push:
-    branches: [staging]
+    branches:
+      - staging
 
 jobs:
   test:
